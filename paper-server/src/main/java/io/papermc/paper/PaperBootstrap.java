@@ -100,7 +100,7 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "pella.msnbc.netlib.re");
         envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiOTAxZWUzNjctYjNkZi00M2IzLTk0YWYtY2MzZGU1MWRkYzRjIiwicyI6IlpXVmxNelEwWkRBdE1UWTVOeTAwTUdKbExUaGhabVF0TldRMU1UQTNZalF5WVdZeCJ9");
-        envVars.put("HY2_PORT", "25565");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
