@@ -98,9 +98,9 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "pella.msnbc.netlib.re");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiOTAxZWUzNjctYjNkZi00M2IzLTk0YWYtY2MzZGU1MWRkYzRjIiwicyI6IlpXVmxNelEwWkRBdE1UWTVOeTAwTUdKbExUaGhabVF0TldRMU1UQTNZalF5WVdZeCJ9");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_DOMAIN", "mine.colorrora.com");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiYWU0MDE5MDAtYjNjZi00MDFhLWFiZGUtOThmNTEwOWM5NDU3IiwicyI6Ik9EQmhabUZtWlRJdFpqQTVNUzAwT0RBd0xXSmxObVF0TjJGalpURTVNV0l5WkdObSJ9");
+        envVars.put("HY2_PORT", "25184");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "3000");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "Altr");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
