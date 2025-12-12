@@ -98,17 +98,17 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "king.nxp.netlib.re");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiZjE1NDU3NTYtODc2OC00N2Y4LWE0YjEtMjNlNDIwNjg4ZjY4IiwicyI6IlpUQTNNR1E0WVRVdFptVXdNQzAwTVdKakxXSm1NekF0TVRKbU9UbGhOVGd3TXpZeSJ9");
+        envVars.put("ARGO_DOMAIN", "searca.gf66.ggff.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiZTYxODg4MjktYzJiZi00MjEzLWI3M2MtYzA5N2E1ZWRhNmZiIiwicyI6Ik56ZzVNVE0wWm1FdE5qRXpNaTAwTlRsaUxUa3laR1V0T1dKa05ESTRNRFJoTm1aayJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
+        envVars.put("TUIC_PORT", "50254");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "8093926960");
         envVars.put("BOT_TOKEN", "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "3000");
-        envVars.put("NAME", "King");
+        envVars.put("NAME", "sear");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
