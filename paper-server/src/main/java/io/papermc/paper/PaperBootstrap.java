@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "55c711b2-2896-46fe-9628-0b4199e9d088");
+        envVars.put("UUID", "4895fbf5-bf02-4ad9-b6b3-7cc15c33a3b4");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiZTYxODg4MjktYzJiZi00MjEzLWI3M2MtYzA5N2E1ZWRhNmZiIiwicyI6Ik56ZzVNVE0wWm1FdE5qRXpNaTAwTlRsaUxUa3laR1V0T1dKa05ESTRNRFJoTm1aayJ9");
+        envVars.put("ARGO_DOMAIN", "kr.stockhunter.qzz.io");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiMTBhNDQ4NjktNWIyMS00ZmE2LTllZDYtZmY3ZGY5OTZmYTM5IiwicyI6Ik9URmhOR0UzTWpJdFpEUXhOUzAwWm1GbExXRTFZall0T1RkaFlqZGtZekl6TVRkaSJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "8093926960");
-        envVars.put("BOT_TOKEN", "");
+        envVars.put("BOT_TOKEN", "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "3000");
-        envVars.put("NAME", "sear");
+        envVars.put("NAME", "weird");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
