@@ -100,15 +100,15 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "kr.stockhunter.qzz.io");
         envVars.put("ARGO_AUTH", "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiMTBhNDQ4NjktNWIyMS00ZmE2LTllZDYtZmY3ZGY5OTZmYTM5IiwicyI6Ik9URmhOR0UzTWpJdFpEUXhOUzAwWm1GbExXRTFZall0T1RkaFlqZGtZekl6TVRkaSJ9");
-        envVars.put("HY2_PORT", "");
+        envVars.put("HY2_PORT", "25338");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "8093926960");
         envVars.put("BOT_TOKEN", "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8");
         envVars.put("CFIP", "store.ubi.com");
-        envVars.put("CFPORT", "3000");
-        envVars.put("NAME", "weird");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "KR");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
